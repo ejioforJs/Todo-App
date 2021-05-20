@@ -1,0 +1,92 @@
+body,html{
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+.eaddTodoPage{
+    height:100%;
+    width:100%;
+    background-image:url("img1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+}
+.editHead{
+    width:60%;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 5%;
+}
+.eaddTodoMain{
+    position: fixed;
+    width:55%;
+    height:100%;
+    margin-left:22.5%;
+    background-image:linear-gradient(to bottom, rgba(255,0,0,0),rgb(0, 204, 255));
+    border-radius:10px;
+}
+.etodoTopic{
+    width:70%;
+    height:8%;
+    margin-top:5%;
+    margin-left: 15%;
+    border-radius: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    color:rgb(18,65,89);
+    outline:none;
+}
+.etodoInfo{
+    width:70%;
+    height: 8%;
+    margin-top:5%;
+    margin-left:15%;
+    border-radius: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    color:rgb(18,65,89);
+    outline: none;
+}
+.etimeOfTodo{
+    width:70%;
+    height: 8%;
+    margin-left:15%;
+    margin-top:2%;
+    border-radius: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    color:rgb(18,65,89);
+    outline: none;
+}
+.elabelTime{
+    margin-top:5%;
+    width:70%;
+    margin-left:15%;
+    font-size: 20px;
+}
+.enewTodos{
+    width:70%;
+    height: 8%;
+    margin-top:10%;
+    margin-left:15%;
+    border-radius: 30px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 5%;
+    background-color:rgb(18,65,89);
+    color:white;
+    outline: none;
+}
+@media screen and (max-width:550px){
+    .eaddTodoMain{
+        width:100%;
+        margin-left: 0;
+    }
+    .editHead{
+        margin-top:23%;
+    }
+}
