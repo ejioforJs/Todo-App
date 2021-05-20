@@ -60,6 +60,7 @@ class LoginPage extends React.Component{
     }
     
     render(){
+        document.title = "Todo App"
         return(
             <div>
                 <div className="loginPage">

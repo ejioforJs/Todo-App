@@ -64,6 +64,7 @@ class editTodo extends React.Component{
 
 
     render(){
+        document.title = "Edit todo"
         return(
             <div>
                 <div className="eaddTodoPage">

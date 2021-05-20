@@ -17,6 +17,7 @@ class RegisterPage extends React.Component{
     }
 
    async RegisterHandler(){
+    document.title = "Register"
         var name=document.querySelector(".name").value
         var username=document.querySelector(".username").value
         var password=document.querySelector(".password").value

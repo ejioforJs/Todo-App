@@ -9,6 +9,7 @@ class previewTodo extends React.Component{
         })
     }
     render(){
+        document.title = "Todo Preview"
         return(
             <div>
                 <div className="previewMain">

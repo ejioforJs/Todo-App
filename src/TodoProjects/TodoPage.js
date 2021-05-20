@@ -162,6 +162,7 @@ class TodoPage extends React.Component{
     await localStorage.setItem("allTodos",forTodos)
     }*/
      render(){
+        document.title = "All Todos"
         var haveTodos=  JSON.parse(localStorage.getItem("Todos"))
         console.log({allTodos: haveTodos})
         var todoUser =   localStorage.getItem("username")

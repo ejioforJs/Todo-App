@@ -125,6 +125,7 @@ class addTodo extends React.Component{
     }
 
     render(){
+        document.title = "Add todo"
         return(
             <div>
                 <div className="addTodoPage">
